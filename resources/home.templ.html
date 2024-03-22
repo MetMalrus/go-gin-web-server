@@ -72,16 +72,16 @@
                             <input type="submit" class="btn btn-primary" value="Send">
                         </form>
                         {{else}}
-                        <form action="" method="get" class="form-inline">
+                        <form action="" method="get" class="form-group">
                             <legend>Введите имя пользователя</legend>
                             <div class="form-group">
                                 <input value='' name="nick" id="nick" placeholder="Your Name" type="text" class="form-control">
                             </div>
+                            <div class="form-group">
+                                <input value='' name="password" id="password" placeholder="Password" type="password" class="form-control">
+                            </div>
                             <div class="form-group text-center">
                                 <input type="submit" class="btn btn-success btn-login-submit" value="Sign">
-                            </div>
-                            <div class="form-group">
-                                <input value='' name="nick" id="nick" placeholder="Your Name" type="password" class="form-control">
                             </div>
                         </form>
                         {{end}}
