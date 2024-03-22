@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="ru">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -57,7 +57,7 @@
         <!-- Main jumbotron for a primary marketing message or call to action -->
         <div class="jumbotron">
             <div class="container">
-                <h1>Login</h1>
+                <h1>Вход</h1>
                 <div class="row">
                     <div class="col-md-8">
                         {{if .nick}}
@@ -73,12 +73,15 @@
                         </form>
                         {{else}}
                         <form action="" method="get" class="form-inline">
-                            <legend>Join the SSE real-time chat</legend>
+                            <legend>Введите имя пользователя</legend>
                             <div class="form-group">
                                 <input value='' name="nick" id="nick" placeholder="Your Name" type="text" class="form-control">
                             </div>
                             <div class="form-group text-center">
-                                <input type="submit" class="btn btn-success btn-login-submit" value="Join">
+                                <input type="submit" class="btn btn-success btn-login-submit" value="Sign">
+                            </div>
+                            <div class="form-group">
+                                <input value='' name="nick" id="nick" placeholder="Your Name" type="password" class="form-control">
                             </div>
                         </form>
                         {{end}}
@@ -89,7 +92,7 @@
         <div class="container">
             <hr>
             <footer>
-                <p>Created with <span class="glyphicon glyphicon-heart"></span> by <a href="https://github.com/manucorporat">Manu Martinez-Almeida</a></p>
+                <p>Created by ...</p>
             </footer>
         </div>
     </body>
